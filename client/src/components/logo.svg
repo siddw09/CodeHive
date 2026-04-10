@@ -1,0 +1,28 @@
+<svg viewBox="0 0 120 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Hexagon -->
+  <defs>
+    <style>
+      .hexagon-fill { fill: #E8DCC8; }
+      .hexagon-stroke { fill: none; stroke: #002B5B; stroke-width: 3; stroke-linejoin: round; }
+      .code-text { fill: #002B5B; font-size: 32px; font-weight: bold; font-family: Arial, sans-serif; text-anchor: middle; dominant-baseline: central; }
+      .chat-bubble { fill: #EA5455; }
+      .connection-line { stroke: #002B5B; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Hexagon background -->
+  <polygon class="hexagon-fill" points="30,25 70,10 85,40 70,70 30,85 15,55" />
+  
+  <!-- Hexagon border -->
+  <polygon class="hexagon-stroke" points="30,25 70,10 85,40 70,70 30,85 15,55" />
+
+  <!-- Code brackets </> -->
+  <text class="code-text" x="52" y="47">&lt;/&gt;</text>
+
+  <!-- Connection line from hexagon to red dot -->
+  <line class="connection-line" x1="75" y1="30" x2="95" y2="20" />
+
+  <!-- Red dot/bubble -->
+  <circle class="chat-bubble" cx="105" cy="15" r="8" />
+</svg>
+</svg>
